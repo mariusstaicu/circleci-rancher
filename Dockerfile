@@ -1,7 +1,7 @@
 FROM circleci/openjdk:8-jdk
 MAINTAINER marius.s.staicu@gmail.com <marius.s.staicu@gmail.com>
 
-ENV RANCHER_CLI_VERSION=v0.6.7 \
+ENV RANCHER_CLI_VERSION=v0.6.9 \
     RANCHER_COMPOSE_VERSION=v0.12.5
 
 USER root
